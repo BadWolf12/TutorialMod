@@ -18,7 +18,7 @@ import BadWolf.TutorialMod.common.TutorialModCommonProxy;
 clientPacketHandlerSpec = @SidedPacketHandler(channels = {"TutorialMod"}, packetHandler = TutorialModClientPacketHandler.class),
 serverPacketHandlerSpec = @SidedPacketHandler(channels = {"TutorialMod"}, packetHandler = TutorialModServerPacketHandler.class))
 
-@Mod(modid="TutorialMod",name="Tutorial Mod",version="Default")
+@Mod(modid="TutorialMod",name="Tutorial Mod",version="Beta")
 
 public class TutorialMod {
 
